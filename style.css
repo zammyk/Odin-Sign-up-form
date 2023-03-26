@@ -64,7 +64,7 @@ a:visited {
 
 .content .about{
     height: calc(20vh + 100px);
-    background-color: #E8E8E8;
+    background-color: #F2F2F2;
     font-size: 20px;
     font-weight: 600;
     display: flex;
