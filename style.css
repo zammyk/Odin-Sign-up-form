@@ -62,6 +62,11 @@ a:visited {
     flex-direction: column;
 }
 
+.content > * {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 .content .about{
     height: calc(20vh + 100px);
     background-color: #F2F2F2;
@@ -72,5 +77,6 @@ a:visited {
 }
 
 .content .about > span {
-    margin: auto 40px 40px;
+    margin-top: auto;
+    padding-bottom: 40px;
 }
