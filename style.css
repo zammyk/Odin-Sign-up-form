@@ -1,0 +1,58 @@
+html, body{
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  height: 100%;
+}
+
+body{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+.image-section {
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+}
+
+.image-section img {
+    height:100vh;
+}
+
+.image-section .credit{
+    position: absolute;
+    bottom: 2vh;
+}
+
+a:visited {
+    color: inherit;
+}
+
+.image-section .modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background: rgb(0,0,0,0.6);
+    width: 100%;
+    top:20vh;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 50px;
+}
+
+.image-section .modal > *{
+    margin: 0px 10px 0px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.modal img{
+    width: 100px;
+    height: auto;
+}
